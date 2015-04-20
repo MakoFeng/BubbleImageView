@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fh="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.mako.bubbleimageview.BubbleImageView
+        android:layout_width="400dp"
+        fh:bubble_arrowHeight="12dp"
+        fh:bubble_arrowLeft="56dp"
+        fh:bubble_arrowWidth="16dp"
+        fh:bubble_arrowOffset="0dp"
+        android:src="@drawable/ic_bg"
+        android:layout_height="400dp" />
+
+</RelativeLayout>
